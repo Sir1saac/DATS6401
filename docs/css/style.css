@@ -1,0 +1,32 @@
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+
+.link:hover {
+  stroke-opacity: .5;
+}
+table {
+	table-layout:fixed;
+	width:800;
+}
+td {
+	border: 1 px solid;
+	width: calc(200);
+}
+th {
+	border: 1 px solid;
+	width: calc(100%/4);
+}

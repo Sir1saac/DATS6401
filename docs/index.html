@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="HT Vizualization">
+    <meta name="author" content="Newton">
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+ <title>Newton - Final Project </title>
+ <!--Overview: This project uses D3 for the main display, which is a 
+ Sankey Diagram, and Tableau for two alternate displays
+ 
+ Credits:
+ The starting Javascript (D3) source code was from: d3.sankey function sourced from 
+ https://codepen.io/mikibihon/pen/VXydaX by Mariel Acuna, found on Github
+ 
+ The starting (Bootstrap) html code was from https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp
+ 
+
+  --> 
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top",id="nav">
+	
+	<a class="nav-link" href="#Geo">Geographic Context</a>
+	<a class="btn btn-success" href="https://www.ctdatacollaborative.org" target="_blank">Source Data</a>
+	<div class="container">
+		</div>
+		
+	</nav>
+
+	<!--Bootstrap grid setup 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<button id="play-button" class="btn btn0primary">Play</button>
+			</div>
+		</div>
+	</div>
+	-->
+<div class="container">
+  <h2>Human Trafficking (HT) Problem across the World</h2>
+  <p spacing=1>Summary by continent of 92,000 reported cases, from 2002 to 2018, with 172 participating countries. </p>
+  
+ 
+<div id='tooltip' class="hidden"></div>
+
+ <p id="chart"></p> 
+ <script src='https://d3js.org/d3.v3.min.js'></script>
+
+  <script  src="js/index.js"></script>
+</div>
+<!--<div class="container", style=height:400px;"> -->
+<div class="col-md-6">
+<a name=Geo></a>
+<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1000px; height: 827px;'><object class='tableauViz' width='1000' height='827' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;1saac' /><param name='name' value='GeoView&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+</div>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-white">
+      <div class="container">
+        <p class="m-0 text-center text-blue">Copyright None; Newton Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+</body>
+
+</html>

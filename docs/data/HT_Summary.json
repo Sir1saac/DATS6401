@@ -1,0 +1,222 @@
+[
+	{
+	"source": "Cit-Unk",
+	"target": "Exp-Unk",
+	"value": 517
+	},
+	{
+	"source": "Cit-Unk",
+	"target": "Exp-SA",
+	"value": 59
+	},
+	{
+	"source": "Cit-Unk",
+	"target": "Exp-AS",
+	"value": 96
+	},
+	{
+	"source": "Cit-Unk",
+	"target": "Exp-NA",
+	"value": 24306
+	},
+	{
+	"source": "Cit-AS",
+	"target": "Exp-Unk",
+	"value": 18373
+	},
+	{
+	"source": "Cit-AS",
+	"target": "Exp-AS",
+	"value": 13126
+	},
+	{
+	"source": "Cit-AS",
+	"target": "Exp-NA",
+	"value": 319
+	},
+	{
+	"source": "Cit-AS",
+	"target": "Exp-AF",
+	"value": 56
+	},
+	{
+	"source": "Cit-EU",
+	"target": "Exp-Unk",
+	"value": 2379
+	},
+	{
+	"source": "Cit-EU",
+	"target": "Exp-AS",
+	"value": 4974
+	},
+	{
+	"source": "Cit-EU",
+	"target": "Exp-EU",
+	"value": 19162
+	},
+	{
+	"source": "Cit-AF",
+	"target": "Exp-Unk",
+	"value": 22
+	},
+	{
+	"source": "Cit-AF",
+	"target": "Exp-AS",
+	"value": 216
+	},
+	{
+	"source": "Cit-AF",
+	"target": "Exp-AF",
+	"value": 1617
+	},
+	{
+	"source": "Cit-SA",
+	"target": "Exp-Unk",
+	"value": 111
+	},
+	{
+	"source": "Cit-SA",
+	"target": "Exp-SA",
+	"value": 31
+	},
+	{
+	"source": "Cit-NA",
+	"target": "Exp-NA",
+	"value": 9580
+	},
+	{
+	"source": "Exp-AF",
+	"target": "Gen-Female",
+	"value": 888
+	},
+	{
+	"source": "Exp-AF",
+	"target": "Gen-Male",
+	"value": 1676
+	},
+	{
+	"source": "Exp-AS",
+	"target": "Gen-Unk",
+	"value": 28
+	},
+	{
+	"source": "Exp-AS",
+	"target": "Gen-Female",
+	"value": 12724
+	},
+	{
+	"source": "Exp-AS",
+	"target": "Gen-Male",
+	"value": 10460
+	},
+	{
+	"source": "Exp-AS",
+	"target": "Gen-Unk",
+	"value": 116
+	},
+	{
+	"source": "Exp-EU",
+	"target": "Gen-Female",
+	"value": 17950
+	},
+	{
+	"source": "Exp-EU",
+	"target": "Gen-Male",
+	"value": 7764
+	},
+	{
+	"source": "Exp-NA",
+	"target": "Gen-Unk",
+	"value": 48
+	},
+	{
+	"source": "Exp-NA",
+	"target": "Gen-Female",
+	"value": 31234
+	},
+	{
+	"source": "Exp-NA",
+	"target": "Gen-Male",
+	"value": 2634
+	},
+	{
+	"source": "Exp-NA",
+	"target": "Gen-Unk",
+	"value": 892
+	},
+	{
+	"source": "Exp-SA",
+	"target": "Gen-Unk",
+	"value": 118
+	},
+	{
+	"source": "Exp-SA",
+	"target": "Gen-Female",
+	"value": 62
+	},
+	{
+	"source": "Exp-Unk",
+	"target": "Gen-Unk",
+	"value": 26
+	},
+	{
+	"source": "Exp-Unk",
+	"target": "Gen-Female",
+	"value": 17844
+	},
+	{
+	"source": "Exp-Unk",
+	"target": "Gen-Male",
+	"value": 6354
+	},
+	{
+	"source": "Exp-Unk",
+	"target": "Gen-Unk",
+	"value": 50
+	},
+	{
+	  "source": "Gen-Unk",
+	  "target": "Sex-Unk",
+	  "value": 692
+	},
+	{
+	  "source": "Gen-Unk",
+	  "target": "Sex-No",
+	  "value": 106
+	},
+	{
+	  "source": "Gen-Unk",
+	  "target": "Sex-Yes",
+	  "value": 480
+	},
+	{
+	  "source": "Gen-Female",
+	  "target": "Sex-Unk",
+	  "value": 36866
+	},
+	{
+	  "source": "Gen-Female",
+	  "target": "Sex-No",
+	  "value": 7558
+	},
+	{
+	  "source": "Gen-Female",
+	  "target": "Sex-Yes",
+	  "value": 36278
+	},
+	{
+	  "source": "Gen-Male",
+	  "target": "Sex-Unk",
+	  "value": 16804
+	},
+	{
+	  "source": "Gen-Male",
+	  "target": "Sex-No",
+	  "value": 10580
+	},
+	{
+	  "source": "Gen-Male",
+	  "target": "Sex-Yes",
+	  "value": 1504
+	}
+];
